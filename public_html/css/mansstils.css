@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 1, 2024, 1:33:48 PM
+    Author     : Kaspars
+*/
+body{
+    width: 70vw;
+    margin:  30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../images/background.png");
+}
+
+h1{
+    text-align: center;
+    
+    font-size: 3rem;
+}
+
+p{
+    font-size: large;
+}
+
+#main-content{
+    background-color: white;
+    padding: 50px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+#title{
+    border: solid 5px #B7C9F2;
+    width: 50vw;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+
+#intro{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.section{
+    border: 6px solid #9195F6;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.section h2{
+    text-align: center;
+}
+
+#ieguvumu-list{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ieguvums{
+    margin: 20px;
+    
+}
+
+li{
+    margin: 15px;
+}
+
+ol{
+    border: 6px dotted #FB88B4
+}
+
+img{
+    max-width: 250px;
+    margin: 20px;
+}
+
+#outro{
+    text-align: center;
+}
+#button{
+    background-color: #B7C9F2;
+    width: 350px;;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#button p{
+    margin: 0;
+    font-weight: bolder;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+table, td, th{
+    padding: 13px;
+    border: solid 4px #9195F6; 
+}
+
+#navbar{
+    position: sticky;
+    margin-top: -50px;
+    top: 0px;
+    background-color: white;
+    border: #9195F6 7px;
+    border-style: none solid solid solid;
+    border-radius: 0 0 20px 20px;
+    padding: 0px;;
+    width: 300px;
+    box-sizing: content-box;
+}
+
+.nav-option{
+    width: 42%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    box-sizing: content-box;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-option:hover{
+    background-color: lightgray;
+}
+
+#info-avoti{
+    font-size: small;
+    position: absolute;
+}
