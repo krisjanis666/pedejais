@@ -7,10 +7,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="merstils.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h>Informācijas daudzuma mērvienības.</h>
+ <p></p>
+         <form>
+        <div><input type="text" name="sk"> GB=</div>
+        <p></p>
+        <div>
+            <input value="izteikt megabaitos" name="reizm" onclick="rez.value=sk.value*1000" type="button">
+<input name="rez"> MB</div>
+        <p></p>
+         <div>
+            <input value="izteikt mibibaitos" name="reizb" onclick="rez2.value=sk.value*1000*1.04858" type="button">
+<input name="rez2"> MiB</div>
+    </form>
+        <div></div>
          <a href="index.html">
             <div id="button">
                 <p>ATPAKAĻ UZ INDEX</p>
