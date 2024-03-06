@@ -10,7 +10,7 @@ body{
     width: 70vw;
     margin:  30px auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("public_html/images/background.png");
+    background-image: url("images/background.png");
 }
 
 h1{
