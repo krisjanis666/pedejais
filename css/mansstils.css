@@ -91,10 +91,10 @@ img{
     
 }
 #button2{
-    background-color: #B7C9F2;
+    background-color: #B7C9F1;
     width: 350px;;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     
 }
@@ -104,6 +104,10 @@ a{
 }
 
 #button p{
+    margin: 0;
+    font-weight: bolder;
+}
+#button2 p{
     margin: 0;
     font-weight: bolder;
 }
